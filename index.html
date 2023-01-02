@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zooming Background</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="small-image-container">
+    <img src="mouse-small.webp" alt="small mouse image" width="679" height="646" />
+  </div>
+
+  <div class="large-image-container" id="viewport-container">
+    <!-- <img src="mouse-large.webp" id="large-image" alt="Large mouse image" width="1500" height="1427" /> -->
+
+  </div>
+
+  <button type="button" class="move-button" name="up">^</button>
+  <button type="button" class="move-button" name="left">&lt;</button>
+  <button type="button" class="move-button" name="right">&gt;</button>
+  <button type="button" class="move-button" name="down">V</button>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

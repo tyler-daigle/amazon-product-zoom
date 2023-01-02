@@ -1,0 +1,38 @@
+.small-image-container {
+  width: 500px;
+}
+
+.small-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.large-image-container {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  border: solid 1px black;
+  box-shadow: 2px 2px 2px 2px #8d8d8d;
+  overflow: hidden;
+  width: 700px;
+  height: 700px;
+
+  /* background-image: url("mouse-large.webp"); */
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top left;
+}
+
+/* .large-image-container img {
+  width: auto;
+  height: auto;
+  position: absolute;
+} */
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: visible;
+}
